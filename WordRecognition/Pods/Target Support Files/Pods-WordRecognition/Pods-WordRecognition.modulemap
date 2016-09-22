@@ -1,0 +1,6 @@
+framework module Pods_WordRecognition {
+  umbrella header "Pods-WordRecognition-umbrella.h"
+
+  export *
+  module * { export * }
+}

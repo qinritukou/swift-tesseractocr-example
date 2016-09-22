@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59F6927EE7F0339A5FAA0304 /* Pods_WordRecognitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9FC3FD3259AED95DD093FA /* Pods_WordRecognitionTests.framework */; };
+		673E6DD9D4F8FE246036614E /* Pods_WordRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7AE2ABAAD44A1CA42E878C /* Pods_WordRecognition.framework */; };
+		D0D75676714E7BB388B3FFF7 /* Pods_WordRecognitionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5384636E715E014A91C86E72 /* Pods_WordRecognitionUITests.framework */; };
+		D251398D1D9383C200CE5A20 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = D251398C1D9383C200CE5A20 /* tessdata */; };
+		D2EDEA141D8F820700BA448D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EDEA131D8F820700BA448D /* AppDelegate.swift */; };
+		D2EDEA161D8F820700BA448D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EDEA151D8F820700BA448D /* ViewController.swift */; };
+		D2EDEA191D8F820700BA448D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EDEA171D8F820700BA448D /* Main.storyboard */; };
+		D2EDEA1C1D8F820700BA448D /* WordRecognition.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2EDEA1A1D8F820700BA448D /* WordRecognition.xcdatamodeld */; };
+		D2EDEA1E1D8F820700BA448D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2EDEA1D1D8F820700BA448D /* Assets.xcassets */; };
+		D2EDEA211D8F820700BA448D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EDEA1F1D8F820700BA448D /* LaunchScreen.storyboard */; };
+		D2EDEA2C1D8F820700BA448D /* WordRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EDEA2B1D8F820700BA448D /* WordRecognitionTests.swift */; };
+		D2EDEA371D8F820700BA448D /* WordRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EDEA361D8F820700BA448D /* WordRecognitionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2EDEA281D8F820700BA448D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2EDEA081D8F820700BA448D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2EDEA0F1D8F820700BA448D;
+			remoteInfo = WordRecognition;
+		};
+		D2EDEA331D8F820700BA448D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2EDEA081D8F820700BA448D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2EDEA0F1D8F820700BA448D;
+			remoteInfo = WordRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12C9925E31945F11CDCC0264 /* Pods-WordRecognitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordRecognitionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WordRecognitionTests/Pods-WordRecognitionTests.release.xcconfig"; sourceTree = "<group>"; };
+		13E1799D04C7D1CAF92DDADC /* Pods-WordRecognitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordRecognitionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WordRecognitionTests/Pods-WordRecognitionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F9FC3FD3259AED95DD093FA /* Pods_WordRecognitionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordRecognitionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5384636E715E014A91C86E72 /* Pods_WordRecognitionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordRecognitionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE970A16BD215BBE69AE28E /* Pods-WordRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordRecognition.release.xcconfig"; path = "Pods/Target Support Files/Pods-WordRecognition/Pods-WordRecognition.release.xcconfig"; sourceTree = "<group>"; };
+		916FB3EB7976A2FF2730D24C /* Pods-WordRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordRecognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WordRecognition/Pods-WordRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+		AD7AE2ABAAD44A1CA42E878C /* Pods_WordRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B057E3B590948F87442533F8 /* Pods-WordRecognitionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordRecognitionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WordRecognitionUITests/Pods-WordRecognitionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B51AD077DE0652AD3040EF67 /* Pods-WordRecognitionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordRecognitionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WordRecognitionUITests/Pods-WordRecognitionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D251398C1D9383C200CE5A20 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		D26F65AB1D8F8EF1004FC35B /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TesseractOCR.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/WordRecognition-efhnrvogxoghhfcymnjjuckhumzc/Build/Products/Debug-iphonesimulator/TesseractOCRiOS/TesseractOCR.framework"; sourceTree = "<group>"; };
+		D26F65B01D8F911B004FC35B /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		D2EDEA101D8F820700BA448D /* WordRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EDEA131D8F820700BA448D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2EDEA151D8F820700BA448D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2EDEA181D8F820700BA448D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2EDEA1B1D8F820700BA448D /* WordRecognition.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordRecognition.xcdatamodel; sourceTree = "<group>"; };
+		D2EDEA1D1D8F820700BA448D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2EDEA201D8F820700BA448D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2EDEA221D8F820700BA448D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EDEA271D8F820700BA448D /* WordRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EDEA2B1D8F820700BA448D /* WordRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRecognitionTests.swift; sourceTree = "<group>"; };
+		D2EDEA2D1D8F820700BA448D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EDEA321D8F820700BA448D /* WordRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EDEA361D8F820700BA448D /* WordRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRecognitionUITests.swift; sourceTree = "<group>"; };
+		D2EDEA381D8F820700BA448D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EDEA461D8F822F00BA448D /* WordRecognition-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordRecognition-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2EDEA0D1D8F820700BA448D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673E6DD9D4F8FE246036614E /* Pods_WordRecognition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EDEA241D8F820700BA448D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F6927EE7F0339A5FAA0304 /* Pods_WordRecognitionTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EDEA2F1D8F820700BA448D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D75676714E7BB388B3FFF7 /* Pods_WordRecognitionUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27D2838740334276E4D02487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D26F65B01D8F911B004FC35B /* libstdc++.tbd */,
+				D26F65AB1D8F8EF1004FC35B /* TesseractOCR.framework */,
+				AD7AE2ABAAD44A1CA42E878C /* Pods_WordRecognition.framework */,
+				2F9FC3FD3259AED95DD093FA /* Pods_WordRecognitionTests.framework */,
+				5384636E715E014A91C86E72 /* Pods_WordRecognitionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B6ABEC36B1FC897CFCD1517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				916FB3EB7976A2FF2730D24C /* Pods-WordRecognition.debug.xcconfig */,
+				6CE970A16BD215BBE69AE28E /* Pods-WordRecognition.release.xcconfig */,
+				13E1799D04C7D1CAF92DDADC /* Pods-WordRecognitionTests.debug.xcconfig */,
+				12C9925E31945F11CDCC0264 /* Pods-WordRecognitionTests.release.xcconfig */,
+				B057E3B590948F87442533F8 /* Pods-WordRecognitionUITests.debug.xcconfig */,
+				B51AD077DE0652AD3040EF67 /* Pods-WordRecognitionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2EDEA071D8F820700BA448D = {
+			isa = PBXGroup;
+			children = (
+				D2EDEA121D8F820700BA448D /* WordRecognition */,
+				D2EDEA2A1D8F820700BA448D /* WordRecognitionTests */,
+				D2EDEA351D8F820700BA448D /* WordRecognitionUITests */,
+				D2EDEA111D8F820700BA448D /* Products */,
+				3B6ABEC36B1FC897CFCD1517 /* Pods */,
+				27D2838740334276E4D02487 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2EDEA111D8F820700BA448D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2EDEA101D8F820700BA448D /* WordRecognition.app */,
+				D2EDEA271D8F820700BA448D /* WordRecognitionTests.xctest */,
+				D2EDEA321D8F820700BA448D /* WordRecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2EDEA121D8F820700BA448D /* WordRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				D251398C1D9383C200CE5A20 /* tessdata */,
+				D2EDEA461D8F822F00BA448D /* WordRecognition-Bridging-Header.h */,
+				D2EDEA131D8F820700BA448D /* AppDelegate.swift */,
+				D2EDEA151D8F820700BA448D /* ViewController.swift */,
+				D2EDEA171D8F820700BA448D /* Main.storyboard */,
+				D2EDEA1D1D8F820700BA448D /* Assets.xcassets */,
+				D2EDEA1F1D8F820700BA448D /* LaunchScreen.storyboard */,
+				D2EDEA221D8F820700BA448D /* Info.plist */,
+				D2EDEA1A1D8F820700BA448D /* WordRecognition.xcdatamodeld */,
+			);
+			path = WordRecognition;
+			sourceTree = "<group>";
+		};
+		D2EDEA2A1D8F820700BA448D /* WordRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2EDEA2B1D8F820700BA448D /* WordRecognitionTests.swift */,
+				D2EDEA2D1D8F820700BA448D /* Info.plist */,
+			);
+			path = WordRecognitionTests;
+			sourceTree = "<group>";
+		};
+		D2EDEA351D8F820700BA448D /* WordRecognitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2EDEA361D8F820700BA448D /* WordRecognitionUITests.swift */,
+				D2EDEA381D8F820700BA448D /* Info.plist */,
+			);
+			path = WordRecognitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2EDEA0F1D8F820700BA448D /* WordRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EDEA3B1D8F820700BA448D /* Build configuration list for PBXNativeTarget "WordRecognition" */;
+			buildPhases = (
+				915EF0C6DFC368F4262E9B39 /* [CP] Check Pods Manifest.lock */,
+				D2EDEA0C1D8F820700BA448D /* Sources */,
+				D2EDEA0D1D8F820700BA448D /* Frameworks */,
+				D2EDEA0E1D8F820700BA448D /* Resources */,
+				1E9D8F8073117C5181C2C57F /* [CP] Embed Pods Frameworks */,
+				7108916F60D49C963FF3FA0E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordRecognition;
+			productName = WordRecognition;
+			productReference = D2EDEA101D8F820700BA448D /* WordRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2EDEA261D8F820700BA448D /* WordRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EDEA3E1D8F820700BA448D /* Build configuration list for PBXNativeTarget "WordRecognitionTests" */;
+			buildPhases = (
+				FF258023A571D453DE1E71A0 /* [CP] Check Pods Manifest.lock */,
+				D2EDEA231D8F820700BA448D /* Sources */,
+				D2EDEA241D8F820700BA448D /* Frameworks */,
+				D2EDEA251D8F820700BA448D /* Resources */,
+				73AC92548BFACA319240CAAD /* [CP] Embed Pods Frameworks */,
+				A76FED02E2E7DBA1108AA23E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2EDEA291D8F820700BA448D /* PBXTargetDependency */,
+			);
+			name = WordRecognitionTests;
+			productName = WordRecognitionTests;
+			productReference = D2EDEA271D8F820700BA448D /* WordRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2EDEA311D8F820700BA448D /* WordRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EDEA411D8F820700BA448D /* Build configuration list for PBXNativeTarget "WordRecognitionUITests" */;
+			buildPhases = (
+				3F983BE815A533B47D809F48 /* [CP] Check Pods Manifest.lock */,
+				D2EDEA2E1D8F820700BA448D /* Sources */,
+				D2EDEA2F1D8F820700BA448D /* Frameworks */,
+				D2EDEA301D8F820700BA448D /* Resources */,
+				EBDDBEE1A6F399C1375F3402 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2EDEA341D8F820700BA448D /* PBXTargetDependency */,
+			);
+			name = WordRecognitionUITests;
+			productName = WordRecognitionUITests;
+			productReference = D2EDEA321D8F820700BA448D /* WordRecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2EDEA081D8F820700BA448D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Orange Man";
+				TargetAttributes = {
+					D2EDEA0F1D8F820700BA448D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H3HK4Z24FN;
+					};
+					D2EDEA261D8F820700BA448D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D2EDEA0F1D8F820700BA448D;
+					};
+					D2EDEA311D8F820700BA448D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D2EDEA0F1D8F820700BA448D;
+					};
+				};
+			};
+			buildConfigurationList = D2EDEA0B1D8F820700BA448D /* Build configuration list for PBXProject "WordRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2EDEA071D8F820700BA448D;
+			productRefGroup = D2EDEA111D8F820700BA448D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2EDEA0F1D8F820700BA448D /* WordRecognition */,
+				D2EDEA261D8F820700BA448D /* WordRecognitionTests */,
+				D2EDEA311D8F820700BA448D /* WordRecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2EDEA0E1D8F820700BA448D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EDEA211D8F820700BA448D /* LaunchScreen.storyboard in Resources */,
+				D251398D1D9383C200CE5A20 /* tessdata in Resources */,
+				D2EDEA1E1D8F820700BA448D /* Assets.xcassets in Resources */,
+				D2EDEA191D8F820700BA448D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EDEA251D8F820700BA448D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EDEA301D8F820700BA448D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E9D8F8073117C5181C2C57F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WordRecognition/Pods-WordRecognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F983BE815A533B47D809F48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7108916F60D49C963FF3FA0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WordRecognition/Pods-WordRecognition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73AC92548BFACA319240CAAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WordRecognitionTests/Pods-WordRecognitionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		915EF0C6DFC368F4262E9B39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A76FED02E2E7DBA1108AA23E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WordRecognitionTests/Pods-WordRecognitionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBDDBEE1A6F399C1375F3402 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WordRecognitionUITests/Pods-WordRecognitionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF258023A571D453DE1E71A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2EDEA0C1D8F820700BA448D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EDEA161D8F820700BA448D /* ViewController.swift in Sources */,
+				D2EDEA1C1D8F820700BA448D /* WordRecognition.xcdatamodeld in Sources */,
+				D2EDEA141D8F820700BA448D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EDEA231D8F820700BA448D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EDEA2C1D8F820700BA448D /* WordRecognitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EDEA2E1D8F820700BA448D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EDEA371D8F820700BA448D /* WordRecognitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2EDEA291D8F820700BA448D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2EDEA0F1D8F820700BA448D /* WordRecognition */;
+			targetProxy = D2EDEA281D8F820700BA448D /* PBXContainerItemProxy */;
+		};
+		D2EDEA341D8F820700BA448D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2EDEA0F1D8F820700BA448D /* WordRecognition */;
+			targetProxy = D2EDEA331D8F820700BA448D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2EDEA171D8F820700BA448D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2EDEA181D8F820700BA448D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2EDEA1F1D8F820700BA448D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2EDEA201D8F820700BA448D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2EDEA391D8F820700BA448D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2EDEA3A1D8F820700BA448D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2EDEA3C1D8F820700BA448D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916FB3EB7976A2FF2730D24C /* Pods-WordRecognition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = WordRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangeman.WordRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WordRecognition/WordRecognition-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2EDEA3D1D8F820700BA448D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE970A16BD215BBE69AE28E /* Pods-WordRecognition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = WordRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangeman.WordRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WordRecognition/WordRecognition-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2EDEA3F1D8F820700BA448D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E1799D04C7D1CAF92DDADC /* Pods-WordRecognitionTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WordRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangeman.WordRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordRecognition.app/WordRecognition";
+			};
+			name = Debug;
+		};
+		D2EDEA401D8F820700BA448D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C9925E31945F11CDCC0264 /* Pods-WordRecognitionTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WordRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangeman.WordRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordRecognition.app/WordRecognition";
+			};
+			name = Release;
+		};
+		D2EDEA421D8F820700BA448D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B057E3B590948F87442533F8 /* Pods-WordRecognitionUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = WordRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangeman.WordRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordRecognition;
+			};
+			name = Debug;
+		};
+		D2EDEA431D8F820700BA448D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51AD077DE0652AD3040EF67 /* Pods-WordRecognitionUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = WordRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangeman.WordRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordRecognition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2EDEA0B1D8F820700BA448D /* Build configuration list for PBXProject "WordRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EDEA391D8F820700BA448D /* Debug */,
+				D2EDEA3A1D8F820700BA448D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2EDEA3B1D8F820700BA448D /* Build configuration list for PBXNativeTarget "WordRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EDEA3C1D8F820700BA448D /* Debug */,
+				D2EDEA3D1D8F820700BA448D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2EDEA3E1D8F820700BA448D /* Build configuration list for PBXNativeTarget "WordRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EDEA3F1D8F820700BA448D /* Debug */,
+				D2EDEA401D8F820700BA448D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2EDEA411D8F820700BA448D /* Build configuration list for PBXNativeTarget "WordRecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EDEA421D8F820700BA448D /* Debug */,
+				D2EDEA431D8F820700BA448D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2EDEA1A1D8F820700BA448D /* WordRecognition.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2EDEA1B1D8F820700BA448D /* WordRecognition.xcdatamodel */,
+			);
+			currentVersion = D2EDEA1B1D8F820700BA448D /* WordRecognition.xcdatamodel */;
+			path = WordRecognition.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2EDEA081D8F820700BA448D /* Project object */;
+}
