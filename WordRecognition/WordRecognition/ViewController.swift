@@ -50,7 +50,7 @@ class ViewController: UIViewController, G8TesseractDelegate {
                 tesseract.image = self.image
                 tesseract.recognize()
                 
-                var text = tesseract.recognizedText
+                let text = tesseract.recognizedText
                 print(text)
                 self.label.text = text
             } else {
